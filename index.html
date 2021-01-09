@@ -1,42 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Google</title>
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
-    <body>
-        <div id="page-container">
-            <div id="content-wrap">
-                <header>
-                    <a href="#" class="blue">Sign in</a>
-                    <a href="#">
-                        <img src="images/google-apps.svg" alt="" class="apps">
-                    </a>
-                    <a href="#" class="text">Images</a>
-                    <a href="#" class="text">Gmail</a>
-                </header>
-                <main>
-                    <img src="images/google-logo.png" alt="" class="logo">
-                    <form>
-                        <label for="search"></label>
-                        <input type="text" id="search" placeholder="Enter your search here">
-                    </form>
-                    <a href="#" class="grey left">Google Search</a>
-                    <a href="#" class="grey right">I'm Feeling Lucky</a>
-                    <p>Google offered in: <a href="#">svenska</a></p>
-                </main>
-                <footer id="footer">
-                    <p>Sweden</p>
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Settings</a>
-                    <a href="#">Advertising</a>
-                    <a href="#">Business</a>
-                    <a href="#">About</a>
-                    <a href="#">How Search works</a>
-                </footer>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#">Gmail</a>
+          </li>
+          <li>
+            <a href="#">Images</a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/google-apps.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/google-user.png" alt="" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-content">
+      <img src="images/google-logo.png" alt="" />
+      <form action="">
+        <label for="search"></label>
+        <input type="text" id="search" />
+      </form>
+      <ul class="nav-list">
+        <li>
+          <a href="#" class="main-button">Google Search</a>
+        </li>
+        <li>
+          <a href="#" class="main-button">I'm Feeling Lucky</a>
+        </li>
+      </ul>
+      <p>Google offered in: <a href="#">svenska</a></p>
+    </div>
+    <footer>
+      <div class="footer-head">
+        <p>Sweden</p>
+      </div>
+      <div class="nav-container">
+        <div class="footer-nav">
+          <div class="left">
+            <ul class="nav-list-footer">
+              <li>
+                <a href="#">Advertising</a>
+              </li>
+              <li>
+                <a href="#">Business</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">How Search Works</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="nav-list-footer" id="right">
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+              <li>
+                <a href="#">Terms</a>
+              </li>
+              <li>
+                <a href="#">Settings</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </body>
+      </div>
+    </footer>
+  </body>
 </html>
